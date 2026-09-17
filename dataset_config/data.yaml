@@ -1,0 +1,8 @@
+# SIH 2026 - PS-57 Sonar Marine Debris Dataset
+path: /content/dataset_yolo_marine
+train: images/train
+val: images/val
+test: images/test
+
+nc: 9
+names: ['wall', 'tire', 'bottle', 'drink_carton', 'chain', 'can', 'valve', 'propeller', 'hook']
