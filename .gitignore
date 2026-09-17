@@ -1,38 +1,34 @@
-# Python virtual environment
 venv/
 .venv/
-
-# Python cache
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# Training / YOLO runs
+.env
+
 runs/
+*.cache
 
-# Dataset - DON'T upload the dataset
 data/
 dataset/
+datasets/
 
-# Large archive files
 *.zip
 *.7z
-*.rar
+*.001
+*.002
+*.003
+*.004
+*.005
+*.006
 
-# Uploaded/generated images
+.vscode/
+
 static/uploads/*
 static/results/*
 
-# Environment / secrets
-.env
-.env.*
-!.env.example
+# Python cache
+**/__pycache__/
 
-# IDE / editor
-.vscode/
-.idea/
-
-# OS files
-Thumbs.db
-.DS_Store
+# Temporary files
+*.tmp
+*.log
